@@ -51,15 +51,11 @@ a {
   font-weight: bolder;
 }
 
-.gatos{
-  text-align: center;
-}
-
-.imagens {
+.gatos, .imagens{
   text-align: center;
   font-weight: bolder;
-
 }
+
 
 img {
   margin: 20px;
