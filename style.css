@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+  background-color:blanchedalmond;
+  /*font-family: komoda, sans-serif;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  color: chocolate;
+  margin: 0% 150px; 
+}
+
+.first {
+ text-align: center;
+ color: chocolate;
+}
+
+h2{
+  font-weight: 300;
+  background-color:lightgoldenrodyellow;
+  margin: 0px 400px;
+}
+
+.foto {
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.fundo{
+ background-color:lightgoldenrodyellow;
+ text-align: center;
+ padding: 0;
+ margin: 0;
+}
+
+.footer{
+  background-color:lightgoldenrodyellow;
+ text-align: center;
+ font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgoldenrodyellow;
+}
+
+a {
+  text-decoration: none;
+  color: chocolate;
+  font-weight: bolder;
+}
+
+.gatos{
+  text-align: center;
+}
+
+.imagens {
+  text-align: center;
+  font-weight: bolder;
+
+}
+
+img {
+  margin: 20px;
+  border-radius: 50%;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 10px;
+}
