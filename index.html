@@ -5,32 +5,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Portfólio Web de Juliana</title>
 </head>
 
 <body>
-  <h1>Portfólio Web de Juliana Ando</h1>
+  <h1 class="first">Portfólio Web</h1>
+  <h2 class="first">Juliana Ando de Cezare</h2>
   <ul>
-    <li>Sobre mim</li>
-    <li>Mais fotos</li>
+    <li><a href="#sobre">Sobre mim</a></li>
+    <li><a href="#fotos">Mais fotos</a></li>
     <li><a href="#contato">Contato</a></li>
   </ul>
 
-  <p>Olá, meu nome é Juliana Ando. Tenho 26 anos, moro na cidade de Campinas - SP desde 2017 e sou apaixonada por essa cidade.</p>
-  <img src="images/juliana.png" width=400px">
+  <div class="foto"><img src="images/juliana.png" width=300px"></div>
 
-  <p>Sou formada em Odontologia pela PUC-Campinas e, no momento, estou em <strong>transição de carreira</strong> para a área tech.
-    <br>
-    Fiz alguns cursos rápidos e, em outubro de 2022, iniciei minha trajetória na <i>Trybe</i> como estudante de Desenvolvimento Web.
-    <br>
-    Já possuo algum conhecimento em HTML, CSS, Javascript, Git, Github e pretendo me aprofundar ainda mais como <strong>Full Stack</strong>.
-  </p>
+  <div class="fundo" id="sobre">
+    <p>Olá, meu nome é Juliana Ando de Cezare. Tenho 26 anos, moro na cidade de Campinas - SP desde 2017 e sou apaixonada por essa cidade.</p>
+    <p>Amo todos os animais, mas meus favoritos são os <strong>gatos</strong>. Tenho 3 fofinhos que se chamam Molly, Rochelly e Raul e dois cachorros, Malala e Robinho.</p>
+    <p>Sou formada em Odontologia pela PUC-Campinas e, no momento, estou em <strong>transição de carreira</strong> para a área tech.
+    </p>
+    <p>Fiz alguns cursos rápidos e, em outubro de 2022, iniciei minha trajetória na <i>Trybe</i> como estudante de Desenvolvimento Web.</p>
+    <p>Durante um tempo, tentei associar minha rotina de trabalho com os estudos, mas não senti que estava valendo a pena.</p>
+    <p>Por isso, resolvi me dedicar 100% ao curso para me aprofundar ainda mais como <strong>Dev Full Stack</strong>.</p>
+  </div>
+  <div class="imagens" id="fotos">
+    <img class="odonto" src="images/cirurgia.png" width=400px>
+    <img class="odonto" src="images/dentista.png" width=300px>
+    <p>Atuando como Cirurgiã-Dentista</p>
+  </div>
+  <div class="gatos">
+    <img src="images/gatos.png" width=300px>
+    <img src="images/gatos1.png" width=300px>
+    <img src="images/malala.png" width=300px>
+  </div>
 
-  <p>Estou totalmente à disposição para me conectar com novas pessoas, conversas, trocas e amizades. </p>
-  <p id="contato">Para maiores informações, meu <a href="https://linkedin.com/julianaandodecezare">LinkedIn</a> e <a href="https://github.com/julianaando">Github</a>.</p>
-
-
-
+  <div class="footer">
+    <p>Estou totalmente à disposição para me conectar com novas pessoas, conversas, trocas e amizades. </p>
+    <p id="contato">Para maiores informações, meu <a href="https://linkedin.com/julianaandodecezare">LinkedIn</a> e <a href="https://github.com/julianaando">Github</a>.</p>
+  </div>
+  <footer>Juliana Ando de Cezare | 2022</footer>
 </body>
 
 </html>

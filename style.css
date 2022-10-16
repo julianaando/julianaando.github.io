@@ -1,0 +1,65 @@
+body {
+  background-color:blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: chocolate;
+}
+
+.first {
+ text-align: center;
+ color: chocolate;
+}
+
+h2{
+  font-weight: 300;
+}
+
+.foto {
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+.fundo{
+ background-color:lightgoldenrodyellow;
+ text-align: center;
+ padding: 0;
+ margin: 0;
+}
+
+.footer{
+  background-color:lightgoldenrodyellow;
+ text-align: center;
+ font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: chocolate;
+  font-weight: bolder;
+}
+
+.gatos{
+  text-align: center;
+}
+
+.imagens {
+  text-align: center;
+  font-weight: bolder;
+
+}
+
+img {
+  margin: 20px;
+  border-radius: 50%;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+}
